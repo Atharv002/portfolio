@@ -3,4 +3,4 @@ My Portfolio website using html css and javascript ,
 you can go ahead and see my code , it is fully explained via comments . easy to understand . 
 
 
-LINK->
+LINK-> https://atharv002.github.io/portfolio/
