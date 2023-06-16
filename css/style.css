@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{  /*declaring global css variable */
-    --orange:	#EEFE0D;
+    --orange:	#0077ff;
 }
 
 *{  /*global properties for the whole website*/
@@ -16,7 +16,7 @@
 
 *::selection{ /*it ll apply the following properties once highlighted by the user in whole webpage*/
     background:var(--orange);
-    color:#333;
+    color:#333333;
 }
 
 html{
