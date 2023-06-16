@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{  /*declaring global css variable */
-    --orange:	#0077ff;
+    --blue:	#0077ff;
 }
 
 *{  /*global properties for the whole website*/
@@ -15,7 +15,7 @@
 }
 
 *::selection{ /*it ll apply the following properties once highlighted by the user in whole webpage*/
-    background:var(--orange);
+    background:var(--blue);
     color:#333333;
 }
 
@@ -33,7 +33,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--orange);
+    background:var(--blue);
 }
 
 body{                   /*body styling*/
@@ -63,7 +63,7 @@ section{
 }
 
 .btn:hover{          /*changing button clr to orange on hover */
-    background:var(--orange);
+    background:var(--blue);
 }
 
 .heading{  /*heading class of all pages styling*/
@@ -76,7 +76,7 @@ section{
 }
 
 .heading span{  /**heading span  color*/
-    color:var(--orange);
+    color:var(--blue);
 }
 
 header{          /*header styling*/
@@ -99,7 +99,7 @@ header .user img{ /*img styling*/
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border:.7rem solid var(--orange);
+    border:.7rem solid var(--blue);
 }
 
 header .user .name{ /*name styling*/
@@ -133,7 +133,7 @@ header .navbar ul li a{ /*navbar links styling */
 }
 
 header .navbar ul li a:hover{ /* hover effect on navbar*/
-    background:var(--orange);
+    background:var(--blue);
 }
 
 #menu{
@@ -166,7 +166,7 @@ header .navbar ul li a:hover{ /* hover effect on navbar*/
 }
 
 .home h1 span{  /*ASHISH KUMAR span styling*/
-    color:var(--orange);
+    color:var(--blue);
 }
 
 .home p{  /*paragraph styling inside home section*/
@@ -175,7 +175,7 @@ header .navbar ul li a:hover{ /* hover effect on navbar*/
     padding: 1rem 0;
 }
 .home p span{
-    color:var(--orange);
+    color:var(--blue);
 }
 
 .about .row{ /* About div styling*/
@@ -194,7 +194,7 @@ header .navbar ul li a:hover{ /* hover effect on navbar*/
 
 .about .row .info h3{ /*about page h3 styling*/
     font-size: 2rem;
-    color:var(--orange);
+    color:var(--blue);
     padding:1rem 0;
     font-weight: normal;
 }
@@ -221,7 +221,7 @@ header .navbar ul li a:hover{ /* hover effect on navbar*/
 
 .about .row .counter .box span{ /*box span text styling*/
     font-size: 4rem;
-    color:var(--orange);
+    color:var(--blue);
 }
 
 .about .row .counter .box h3{ /*box h3 text*/
@@ -276,7 +276,7 @@ header .navbar ul li a:hover{ /* hover effect on navbar*/
     text-align: center;
     font-size: 2rem;
     color:#fff;
-    background:var(--orange);
+    background:var(--blue);
 }
 
 .portfolio .box-container{
@@ -344,7 +344,7 @@ header .navbar ul li a:hover{ /* hover effect on navbar*/
 
 .contact .row .content .info h3 i{
     padding-right: 1rem;
-    color:var(--orange);
+    color:var(--blue);
 }
 .contact .row .content .info a{
     color:#eee
